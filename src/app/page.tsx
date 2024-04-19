@@ -98,7 +98,7 @@ export default function Home() {
                               <p className="text-xs text-[#808181]">Triathle</p>
                           </div>
                           <p>
-                              <a href="#" className="text-white font-semibold text-lg">
+                              <a href={post.link} target="_blank" className="text-white font-semibold text-lg">
                                   {truncateString(post.contentSnippet, 60)}
                               </a>
                           </p>
